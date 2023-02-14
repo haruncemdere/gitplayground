@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         prepareEncryption()
+
+        prepareAnalytics()
         
         return true
     }
@@ -34,6 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func prepareEncryption(){}
+    
+    private func prepareAnalytics(){}
 
 }
 
